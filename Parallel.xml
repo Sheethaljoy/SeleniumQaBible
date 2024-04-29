@@ -1,0 +1,14 @@
+<suite name="paralleltestsuite" parallel="tests" thread-count="2">
+	<test name="chrometest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.testcase.ParallelTestCase"></class>
+		</classes>
+	</test>
+	<test name="edgetest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="com.testcase.ParallelTestCase"></class>
+		</classes>
+	</test>
+</suite>

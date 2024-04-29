@@ -1,0 +1,14 @@
+<suite name="myTestSuite">
+	<test name="groupTest">
+		<groups> 
+			<run>
+				<include name="critical"></include>
+				<include name="high"></include>
+				<include name="medium"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.testcase.GroupingTestCase"></class>
+		</classes>
+	</test>
+</suite>
